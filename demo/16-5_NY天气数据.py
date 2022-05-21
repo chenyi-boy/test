@@ -31,7 +31,7 @@ ax.plot(dates, lows, c='blue', alpha=0.5)
 plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
 # 设置图形格式
-title = "2021年每日最高温度和最低温度\n中央公园 美国.纽约"
+title = "2021年每日最高温度和最低温度\n中央公园 美国 纽约"
 plt.title(title, fontsize=16)
 plt.xlabel('', fontsize=12)
 fig.autofmt_xdate()
